@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap");
+body,
+html {
+  font-family: "Nunito Sans";
+  height: 100% !important; }
+
+.wrapper {
+  height: 100%; }
+
+.b-color {
+  color: #e4e8f1; }
+
+.b-color2 {
+  color: #0ecc8e; }
+
+.b-color3 {
+  color: #4d5aa0; }
+
+.b-color4 {
+  color: #eeeff3; }
+
+.b-color5 {
+  color: #a5a5ad; }
+
+.b-color6 {
+  color: #d2bade; }
+
+.wrapper {
+  display: flex !important;
+  height: 100vh; }
+
+.btn-brand {
+  background: #5eb86d;
+  color: #ffffff; }
+  .btn-brand:hover {
+    color: #ffffff !important;
+    transition: 0.5 ease; }
+
+.btn-brand3 {
+  background: #e4e8f1;
+  color: #4d5aa0; }
+  .btn-brand3:hover {
+    color: #4d5aa0 !important;
+    transition: 0.5 ease; }
+
+.btn-brand2 {
+  background: #ffffff;
+  color: #4d5aa0; }
+  .btn-brand2:hover {
+    color: #4d5aa0 !important;
+    transition: 0.5 ease; }
+
+.curve {
+  border-radius: 15px !important; }
+
+.t-icon {
+  font-size: 20px; }
+
+.find a,
+.message a {
+  text-decoration: none;
+  color: #7f7e8d; }
+  .find a:hover,
+  .message a:hover {
+    text-decoration: none;
+    color: #7f7e8d; }
+  .find a::after,
+  .message a::after {
+    display: none; }
+
+.find .dropdown-menu,
+.message .dropdown-menu {
+  background: transparent !important;
+  border: none !important;
+  min-width: 20rem; }
+
+.bell {
+  position: relative; }
+  .bell .num {
+    position: absolute;
+    top: -8px;
+    left: 8px;
+    background: #e06e5a;
+    color: white;
+    padding: 1px 5px;
+    width: 20px;
+    font-size: 13px;
+    height: 20px;
+    border-radius: 8px !important; }
+
+.profile a {
+  text-decoration: none; }
+
+.profile-img {
+  width: 35px !important;
+  height: 35px !important; }
+
+.message-preview {
+  line-height: 0; }
+
+.mon-value span {
+  vertical-align: top;
+  font-size: 12px; }
+
+.w-analysis {
+  line-height: 1; }
+
+canvas {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px; }
+
+.main {
+  background: #eeeff3;
+  width: 80%;
+  height: 100%;
+  position: relative;
+  overflow-x: scroll; }
+
+.bell {
+  position: relative; }
+
+.tran-icon {
+  background: #e4e8f1;
+  width: 40px;
+  height: 40px; }
+
+.tran-detail {
+  line-height: 0.7; }
+
+.tran-sub {
+  line-height: .4;
+  font-size: 12px; }
+
+.debit-card {
+  height: 250px;
+  background-image: linear-gradient(to left top, #4b4a70, #47466d, #43416b, #3f3d68, #3b3965); }
+  .debit-card .g-head {
+    background-image: linear-gradient(to right, #649e52, #549b60, #48966d, #429276, #428c7d);
+    height: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; }
+  .debit-card .b-head {
+    background-image: linear-gradient(to left top, #4b4a70, #47466d, #43416b, #3f3d68, #3b3965);
+    box-shadow: 0px -1px #0000005c;
+    height: inherit; }
+  .debit-card .d-wrap {
+    border: 1px dashed black;
+    height: 14rem;
+    position: relative; }
+    .debit-card .d-wrap .l-head {
+      background-image: linear-gradient(to right, #4f6bd2, #4d75d7, #4d7edc, #4e87e0, #5190e3);
+      height: 15px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px; }
+    .debit-card .d-wrap .card-type {
+      position: absolute;
+      bottom: 0; }
+    .debit-card .d-wrap .card-icon {
+      position: absolute;
+      bottom: 15px;
+      right: 5px; }
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: -4px -4px; }
+
+.contact-item {
+  flex: 0 0 auto;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 0.5rem; }
+
+.close {
+  display: none }
+
+.fullwidth {
+  width: 100% !important; }
+
+.hamburger, .close-mobile {
+  font-size: 24px; }
+
+.sidenav {
+  width: 20%;
+  min-height: 100%;
+  background-color: #dbe1ec;
+  position: relative; }
+  .sidenav .navigation ul {
+    list-style: none !important;
+    display: inline; }
+    .sidenav .navigation ul li {
+      padding: 0 3rem !important;
+      width: 250px; }
+      .sidenav .navigation ul li:hover {
+        background: #e4e8f1 !important;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        transition: 1s ease; }
+        .sidenav .navigation ul li:hover span,
+        .sidenav .navigation ul li:hover i {
+          color: #0ecc8e !important; }
+      .sidenav .navigation ul li a {
+        line-height: 3;
+        display: flex;
+        flex-grow: 1;
+        color: #4d5aa0;
+        align-items: baseline;
+        justify-content: flex-start; }
+        .sidenav .navigation ul li a:hover {
+          text-decoration: none; }
+        .sidenav .navigation ul li a .link {
+          padding-left: 1.2rem; }
+        .sidenav .navigation ul li a .activity {
+          display: block;
+          margin-left: auto;
+          background-image: linear-gradient(to left top, #4b4a70, #47466d, #43416b, #3f3d68, #3b3965);
+          width: 24px;
+          height: 24px;
+          border-radius: 10px;
+          position: relative;
+          top: 6px; }
+          .sidenav .navigation ul li a .activity span {
+            position: absolute;
+            top: -12px;
+            left: 7px;
+            color: #ffffff !important; }
+    .sidenav .navigation ul .active {
+      background: #e4e8f1 !important;
+      border-top-right-radius: 50px;
+      border-bottom-right-radius: 50px; }
+      .sidenav .navigation ul .active span,
+      .sidenav .navigation ul .active i {
+        color: #0ecc8e !important; }
+  .sidenav .help {
+    position: absolute;
+    bottom: 0; }
+  .sidenav .nav-logo {
+    display: flex;
+    padding: 1rem 3rem; }
+    .sidenav .nav-logo .nav-img {
+      width: 40px;
+      height: 40px; }
+    .sidenav .nav-logo .logo-text {
+      font-size: 24px; }
+  .sidenav .control {
+    position: absolute;
+    right: 10px;
+    bottom: 25px; }
+  .close-mobile{
+    display: none;
+  }
+
+@media screen and (max-width: 1024px){
+  .sidenav{
+    /* display: none !important; */
+    width: 25%;
+  }
+  .tran-detail {
+    line-height: 1;
+}
+  .main{
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .sidenav{
+    display: none;
+    width: 40%;
+    position: fixed;
+    z-index: 1000;
+  }
+  .tran-detail {
+    line-height: 1;
+  }
+  .close-mobile{
+    display: block;
+  }
+  .main{
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 411px){
+  .sidenav{
+    display: none;
+    width: 80% !important;
+    position: fixed;
+    z-index: 1000;
+  }
+  .tran-detail {
+    line-height: 1.5;
+  }
+  .close-mobile{
+    display: block;
+  }
+  .main{
+    width: 100% !important;
+  }
+}
